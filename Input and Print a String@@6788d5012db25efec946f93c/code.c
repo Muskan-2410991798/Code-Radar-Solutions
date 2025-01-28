@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char*str[];
+    char str[];
 
-    scanf("%[^\n]s",&str);
+    scanf("%24[^\n]",&str);
     printf("You entered: %s",str);
     return 0;
 }
