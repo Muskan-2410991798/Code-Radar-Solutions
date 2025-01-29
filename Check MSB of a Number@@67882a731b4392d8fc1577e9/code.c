@@ -4,7 +4,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a&0){
+    int msb=1<<31;
+    if(a&msb){
         printf("Set");
     }
     else{
