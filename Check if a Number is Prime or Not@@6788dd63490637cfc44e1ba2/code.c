@@ -14,11 +14,11 @@ int main() {
                 break;
             }
         }
-        if (flag){
-            printf("Prime");
+        if (flag = true){
+            printf("Not Prime");
         }
         else{
-            printf("Not Prime")
+            printf("Prime")
         }
     }
     
