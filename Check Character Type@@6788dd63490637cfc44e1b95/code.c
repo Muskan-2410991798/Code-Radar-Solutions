@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char a;
+    int a;
     scanf("%c",&a);
-    if((a>=(int)'a' && a<=(int)'z') || (a>=(int)'A' && a<=(int)'Z')){
-        if(a=='a' || a=='e' || a=='i' a=='o'||a=='u'||a=='A' || a=='E' || a=='I'||a=='O'||a=='U'){
+    if((a>=65 && a<=90) || (a>=97 && a<=122)){
+        if(a==(int)'a' || a==(int)'e' || a==(int)'i' a==(int)'o'||a==(int)'u'||a==(int)'A' || a==(int)'E' || a==(int)'I'||a==(int)'O'||a==(int)'U'){
             printf("Vowel");
 
         }
@@ -12,7 +12,7 @@ int main() {
             printf("Consonant");
         }
     }
-    else if(a>=(int)'0' && a<=(int)'9'){
+    else if(a>=0 && a<=9){
         printf("Digit");
     }
     else{
