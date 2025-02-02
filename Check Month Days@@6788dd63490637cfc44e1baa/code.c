@@ -3,11 +3,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    if(n<1 || n>12 ){
-        printf("Invalid month");
-    }
-    else{
-        switch(n){
+    switch(n){
         case 1:
             printf("31");
             break;
@@ -45,8 +41,8 @@ int main() {
             printf("31");
             break;
         default:
+            printf("Invalid month");
             break;
-        }
     }
     return 0;
 }
