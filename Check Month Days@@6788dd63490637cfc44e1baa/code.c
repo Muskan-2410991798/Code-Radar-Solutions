@@ -1,44 +1,44 @@
 #include <stdio.h>
 
 int main() {
-    int month;
-    scanf("%d",&month);
-    switch(month){
+    int n;
+    scanf("%d",&n);
+    switch(n){
     case 1:
-        printf("31");
+        printf("%d",31);
         break;
     case 2:
-        printf("28");
+        printf("%d",28);
         break;
     case 3:
-        printf("31");
+        printf("%d",31);
         break;
     case 4:
-        printf("30");
+        printf("%d",30);
         break;
     case 5:
-        printf("31");
+        printf("%d",31);
         break;
     case 6:
-        printf("30");
+        printf("%d",30);
         break;
     case 7:
-        printf("31");
+        printf("%d",31);
         break;
     case 8:
-        printf("31"):
+        printf("%d",31):
         break;
     case 9:
-        printf("30");
+        printf("%d",30);
         break;
     case 10:
-        printf("31");
+        printf("%d",31);
         break;
     case 11:
-        printf("30");
+        printf("%d",30);
         break;
     case 12:
-        printf("31");
+        printf("%d",31);
         break;
     default:
         printf("Invalid month");
