@@ -3,14 +3,11 @@
 int main() {
     int n,i,j;
     scanf("%d",&n);
+    int c=1;
     for(i=0;i<n;i++){
         for(j=0;j<i+1;j++){
-            if(i==0 && j==0){
-                printf("1");
-            }
-            else{
-                printf("%d ",2*i+j);
-            }
+            printf("%d ",c);
+            c++;
         }
         printf("\n");
     }
