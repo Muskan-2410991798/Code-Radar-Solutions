@@ -22,9 +22,9 @@ int main() {
                 else{
                     flag=0;
                 }
-            }
-            if(flag==0){
-                count +=1;
+                if(flag==0){
+                    count +=1;
+                }
             }
             
         }
