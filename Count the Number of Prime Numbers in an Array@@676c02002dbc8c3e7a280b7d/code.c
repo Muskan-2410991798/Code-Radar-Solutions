@@ -24,7 +24,7 @@ int main() {
                 count = count + 1;
             }
         }
+        printf("%d",count);
     }
-    printf("%d",count);
     return 0;
 }
