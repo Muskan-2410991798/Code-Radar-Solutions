@@ -22,7 +22,7 @@ int main() {
             }
         }
         if (flag==0){
-            count +=1;
+            count = count + 1;
         }
     }
     printf("%d",count);
