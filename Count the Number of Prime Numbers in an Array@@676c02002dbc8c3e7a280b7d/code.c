@@ -10,7 +10,7 @@ int main() {
         scanf("%d ",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if (arr[i] == 0 || arr[i]=1){
+        if (arr[i] == 0 || arr[i]==1){
             flag= 1;
         }
         else{
