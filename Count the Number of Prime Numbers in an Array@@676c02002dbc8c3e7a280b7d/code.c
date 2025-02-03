@@ -20,9 +20,9 @@ int main() {
                     break;
                 }
             }
-        }
-        if (flag==0){
-            count = count + 1;
+            if(flag==0){
+                count = count + 1;
+            }
         }
     }
     printf("%d",count);
