@@ -9,7 +9,7 @@ int main() {
                 printf("1");
             }
             else{
-                printf("%d ",2i+j);
+                printf("%d ",2*i+j);
             }
         }
         printf("\n");
