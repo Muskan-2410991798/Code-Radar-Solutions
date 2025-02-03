@@ -19,10 +19,14 @@ int main() {
                     flag=1;
                     break;
                 }
+                else{
+                    flag=0;
+                }
             }
             if(flag==0){
-                count = count + 1;
+                count +=1;
             }
+            
         }
         printf("%d",count);
     }
