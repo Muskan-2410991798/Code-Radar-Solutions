@@ -1,5 +1,5 @@
 #include <stdio.h>
-int ans(int arr[n],int target){
+int ans(,int n,int arr[n],int target){
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             printf("%d",i);
@@ -17,8 +17,7 @@ int main() {
     }
     int target;
     scanf("%d",&target);
-    int c=ans(arr,target);
-    printf("%d",c);
+    ans(n,arr,target);
     
     return 0;
 }
