@@ -15,7 +15,6 @@ int main() {
             swap(arr[i],arr[left]);
             left++;
             i++;
-
         }
         else{
             i++;
