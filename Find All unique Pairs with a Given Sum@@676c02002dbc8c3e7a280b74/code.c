@@ -15,7 +15,6 @@ int main() {
             if(arr[i]+arr[j]==target){
                 printf("%d %d\n",arr[i],arr[j]);
                 found = 1;
-                break;
             }
         }
         if(found) break;
