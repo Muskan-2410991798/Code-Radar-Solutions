@@ -4,7 +4,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int count = 1;
+    int count = 0;
     int arr[n];
     int visited[n];
     for(int i=0; i<n; i++){
@@ -15,7 +15,7 @@ int main() {
         if (visited[i]==1){
             continue;
         }
-        for(int j=i+1;j<n;j++){
+        for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count +=1;
                 visited[j]=1;
