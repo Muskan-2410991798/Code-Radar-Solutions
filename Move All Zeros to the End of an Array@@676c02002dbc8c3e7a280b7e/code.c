@@ -1,5 +1,9 @@
 #include <stdio.h>
-#include <utility>
+void swap(int *a, int *b){
+    int temp  = *a;
+    *a= *b;
+    *b = temp;
+}
 int main() {
     int n;
     scanf("%d",&n);
@@ -11,7 +15,7 @@ int main() {
     int left = 0;
     while(i<n){
         if(arr[i]!=0){
-            swap(arr[i],arr[left]);
+            swap(&arr[i],&arr[left]);
             left++;
             i++;
         }
