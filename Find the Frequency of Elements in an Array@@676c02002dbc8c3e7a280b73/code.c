@@ -7,14 +7,15 @@ int main() {
     int count = 0;
     int arr[n];
     for(int i=0; i<n; i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d ",&arr[i])
+    }
+    for(int i=0; i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[i]=arr[j]){
                 count +=1;
             }
         }
         printf("%d %d",arr[i],count);
-
     }
     return 0;
 }
