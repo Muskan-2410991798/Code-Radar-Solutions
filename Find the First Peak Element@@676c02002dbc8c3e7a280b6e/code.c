@@ -9,7 +9,7 @@ int main() {
     for(int i=0; i<n; i++){
         scanf("%d \n",&arr[i]);
     }
-    while(s<=e){
+    while(s<e){
         if (arr[mid]<arr[mid+1]){
             s=mid+1;
         }
