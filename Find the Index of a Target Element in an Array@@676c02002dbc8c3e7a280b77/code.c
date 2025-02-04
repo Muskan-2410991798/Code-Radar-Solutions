@@ -16,7 +16,7 @@ int main() {
     }
     int target;
     scanf("%d",&target);
-    ans(n,arr,target);
+    printf("%d ",ans(n,arr,target));
     
     return 0;
 }
