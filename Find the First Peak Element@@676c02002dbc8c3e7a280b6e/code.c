@@ -18,6 +18,6 @@ int main() {
         }
         mid = s+(e-s)/2;
     }
-    printf("%d",s);
+    printf("%d",arr[s]);
     return 0;
 }
