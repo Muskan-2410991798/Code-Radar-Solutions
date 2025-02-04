@@ -14,7 +14,7 @@ int main() {
             flag= 1;
         }
         else{
-            for(int j=2;j<=n;i++){
+            for(int j=2;j<=n;j++){
                 if (arr[i]%j==0){
                     flag=1;
                     break;
